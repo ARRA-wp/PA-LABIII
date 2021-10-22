@@ -86,6 +86,10 @@ ul.redes2{
   text-align: center;
 }
 
+.contenedor-crear2{
+  text-align: justify;
+}
+
 .crear{
   border-radius: 15px;
   padding: 2%;
@@ -104,7 +108,7 @@ ul.redes2{
   padding-bottom: 8%;
   margin: 5% auto;
   width: 60%;
-  text-align: center;
+  text-align: justify;
   background-color: rgba(255, 255, 255, 0.801);
   color: rgb(0, 0, 0);
 }

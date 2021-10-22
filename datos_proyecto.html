@@ -33,7 +33,7 @@
         <div class="grid-container">
             <div class="grid-item">
                 <button class="button-borrar"><i class="fas fa-trash-alt"></i></button>
-                <button class="button-editar"><i class="fas fa-edit"></i></button>
+                <button class="button-editar" onclick="location.href='editar_proyecto.html';"><i class="fas fa-edit"></i></button>
                 <br>
                 <br>
                 <h3>Cifrado DES</h3>
@@ -47,7 +47,7 @@
             </div>
             <div class="grid-item">
                 <button class="button-borrar"><i class="fas fa-trash-alt"></i></button>
-                <button class="button-editar"><i class="fas fa-edit"></i></button>
+                <button class="button-editar" onclick="location.href='editar_proyecto.html';"><i class="fas fa-edit"></i></button>
                 <br>
                 <br>
                 <h3>CRUD NODE</h3>
@@ -110,10 +110,14 @@
                     <input class="dato" type="text" placeholder="ej.(5IV8, 3IV2, etc.)">
                     <label>Descripción</label>
                     <input class="dato" type="text" placeholder="Explica de qué se trata tu proyecto...">
-                  
+                    <label>Requisitos:</label>
+                    <input class="dato" type="text" placeholder="¿Qué se necesita para trabajar en tu proyecto?">
                     
                 </form>
                 
+                <span>Nota: Esta informacion es muy importante, tomatelo en serio</span>
+                <br>
+                <br>
                 <input class="subir" type="submit" value="Siguiente" onclick="location.href='pasos_proyecto.html';" >
                 
             </div>
