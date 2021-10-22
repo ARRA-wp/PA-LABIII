@@ -8,24 +8,24 @@
     <link rel="stylesheet" href="master.css">
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasos proyectos</title>
+    <title>Datos proyectos</title>
 </head>
-<body>
+<body style="background-image: url(img/diagonales.jpg);">
     <div id="root">
         <ul>
-            <li><h4><a href="#home"><i class="fas fa-code"></i> SpankyBot</a></h4></li>
-            <li style="float:right"><a href="#about">Cerrar Sesión</a></li>
-            <li style="float:right"><a href="#about">Perfil</a></li>
-            <li style="float:right"><a href="#contact">Más proyectos</a></li>
-            <li style="float:right"><a href="#news">Mis Proyectos</a></li>
+            <li><h4><a href="index.html"><i class="fas fa-code"></i> BatizLab</a></h4></li>
+            <li style="float:right"><a href="iniciar_sesion.html">Cerrar Sesión</a></li>
+            <li style="float:right"><a href="perfil_maestro.html">Perfil</a></li>
+            <li style="float:right"><a href="index.html">Más proyectos</a></li>
+            <li style="float:right"><a href="crear_proyecto.html">Mis Proyectos</a></li>
           </ul>
     </div>
     <div class="menu">
         <div class="dropdown">
             <button class="dropbtn">Mis Proyectos</button>
             <div class="dropdown-content">
-            <a href="#">Cifrado DES</a>
-            <a href="#">CRUD NODE</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Usuarios</a>
             </div>
           </div>
     </div>
@@ -42,7 +42,7 @@
                 <h5>Grupo: 5IV8</h5>
                 <h5>Descripción: Esto es de cifrados</h5>
                 <br>
-                <button class="button">Detalles</button>
+                <button class="button" onclick="location.href='x_proyecto.html';">Detalles</button>
                 
             </div>
             <div class="grid-item">
@@ -50,13 +50,13 @@
                 <button class="button-editar"><i class="fas fa-edit"></i></button>
                 <br>
                 <br>
-                <h3>CRUD NODE </h3>
+                <h3>CRUD NODE</h3>
                 <h5>Lenguajes utiizados: HTML, CSS, Node.js, MongoDB</h5>
                 <h5>Autor/es: Alejandro, Andres, Arturo</h5>
                 <h5>Grupo: 5IV8</h5>
                 <h5>Descripción: CRUD</h5>
                 <br>
-                <button class="button">Detalles</button>
+                <button class="button" onclick="location.href='x_proyecto.html';">Detalles</button>
             </div>
         </div>
         <div class="contenedor-crear">
@@ -67,6 +67,43 @@
                     <input class="dato" type="text" placeholder="Titulo">
                     <label>Lenguajes de programación usados</label>
                     <input class="dato" type="text" placeholder="ej.(CSS, Java, Python, JavaScript, etc.)">
+                    <label>Unidad Academica</label>
+                    <input class="dato" type="text" placeholder="UA">
+                    <label>Especialidad</label>
+                    <input class="dato" type="text" placeholder="Progra,sistemas, maquinas">
+                    <label>Tema</label>
+                    <input class="dato" type="text" placeholder="¿De que trata?">
+                    <label>Delimitación del Tema</label>
+                    <input class="dato" type="text" placeholder="Mas especificamente">
+                    <label>Propósito</label>
+                    <input class="dato" type="text" placeholder="Propósito">
+                    <label>Impacto Social</label>
+                    <input class="dato" type="text" placeholder="IS">
+                    <label>Resumen</label>
+                    <input class="dato" type="text" placeholder="Resumen">
+                    <label>Introducción</label>
+                    <input class="dato" type="text" placeholder="Introducción">
+                    <label>Objetivos</label>
+                    <input class="dato" type="text" placeholder="Generales">
+                    <input class="dato" type="text" placeholder="Particulares, mas de uno separe por comas">
+                    <label>Justificación</label>
+                    <input class="dato" type="text" placeholder="Justificación">
+                    <label>Sustento Teórico</label>
+                    <input class="dato" type="text" placeholder="Sustento">
+                    <label>Cronograma</label>
+                    <input class="dato" type="text" placeholder="Cronograma de Actividades">
+                    <label>Factibilidad Técnica</label>
+                    <input class="dato" type="text" placeholder="FT">
+                    <label>Factilibidad Financiera</label>
+                    <input class="dato" type="text" placeholder="FF">
+                    <label>Innovación</label>
+                    <input class="dato" type="text" placeholder="innovación">
+                    <label>Conclusión</label>
+                    <input class="dato" type="text" placeholder="conclusion">
+                    <label>Sustentabilidad</label>
+                    <input class="dato" type="text" placeholder="sustentabilidad">
+                    <label>Factilibidad </label>
+                    <input class="dato" type="text" placeholder="Factivilidad">
                     <label>Autor/es</label>
                     <input class="dato" type="text" placeholder="Nombre/es">
                     <label>Grupo</label>
@@ -74,8 +111,10 @@
                     <label>Descripción</label>
                     <input class="dato" type="text" placeholder="Explica de qué se trata tu proyecto...">
                   
-                    <input class="subir" type="submit" value="Siguiente">
-                  </form>
+                    
+                </form>
+                
+                <input class="subir" type="submit" value="Siguiente" onclick="location.href='pasos_proyecto.html';" >
                 
             </div>
         </div>
